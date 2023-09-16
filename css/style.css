@@ -39,19 +39,27 @@ section#ilogin{
     height: 500px;
     border-radius: 20px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.497);
+
+    transition: width .8s, height .2s;
+    transition-timing-function: ease;
 }
 
 section#ilogin > div#iimagem{
     display: block;
     background: #5f2c82 url('../imgs/pexels-patrice-werner.jpg') center center no-repeat;
     background-size: cover;
-    height: 210px;
+    height: 200px;
 }
 
 section#ilogin > div#iformulario{
     display: block;
     padding: 10px;
 
+}
+
+section#ilogin > div#iformulario > p{
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
 }
 
 /* 
