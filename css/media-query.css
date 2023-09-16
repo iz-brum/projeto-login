@@ -31,13 +31,21 @@
     }
 
     section#ilogin > div#iimagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
+    div#iformulario > h1{
+        font-size: 2em;
+    }
+
+    div#iformulario > p{
+        font-size: 1.2em;
+    }
+
     section#ilogin > div#iformulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
